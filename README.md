@@ -35,6 +35,10 @@ This project demonstrates table creation, stored procedures, functions, and cond
 2. Execute the script
 3. Call the stored procedure:
    CALL get_course_details(101, @name, @fee);
+   select @name as Course_Name, @fee as Course_Fee;
+
+## 📸 Output Screenshot
+![Procedure Output](C:\Users\SADAM HUSSAIN NABI\OneDrive\Documents\student-course-management-mysql/output.png)
 
 ## 👨‍💻 Author
 Yasar Arafath Nabi
