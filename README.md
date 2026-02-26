@@ -34,7 +34,11 @@ This project demonstrates table creation, stored procedures, functions, and cond
 1. Import the SQL file into MySQL Workbench
 2. Execute the script
 3. Call the stored procedure:
-   CALL get_course_details(101, @name, @fee);
+CALL get_course_details(101, @name, @fee);
+select @name as Course_Name, @fee as Course_Fee;
+
+## 📸 Output Screenshot
+![Procedure Output](output/output.png)
 
 ## 👨‍💻 Author
 Yasar Arafath Nabi
