@@ -38,7 +38,7 @@ This project demonstrates table creation, stored procedures, functions, and cond
    select @name as Course_Name, @fee as Course_Fee;
 
 ## 📸 Output Screenshot
-![Output](student-course-management-mysql/Output.png)
+![output](output/output.png)
 
 ## 👨‍💻 Author
 Yasar Arafath Nabi
